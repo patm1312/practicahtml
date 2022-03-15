@@ -3,11 +3,16 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-
+    font-family: 'Roboto', sans-serif
+}
+html{
+    position: relative;
+    min-height: 100%;
 }
 body{
     font-size: 25px;
     background-color: #42C2FF;
+    min-height: 100vh
 }
 .header1{
     display: flex;
@@ -15,7 +20,6 @@ body{
     background-color: #488FB1;
     justify-content: space-between;
     color: #085E7D;
-    font-family: 'Roboto', sans-serif;
     font-size: 0.5em;
     color: aliceblue
 }
@@ -55,19 +59,30 @@ body{
 .text1, .info1{
     display: inline-block;
 }
-.caja-2, .caja-2copy{
+.caja-2{
     position: absolute;
     right: 0;
     left: 0;
     margin: auto;
     top: 200px;
 }
+.edad{
+    color: #6A8C69
+}
+.text1, .repre{
+    color: #024554
+}
+.repre{
+    font-size: 0.8em
+}
 .caja-2copy{
     top: 320px;
+    margin-top: 165px;
 }
 .info1{
     font-size: 15px;
     margin: 0 15px;
+    margin-bottom: 15px
 }
 .logo2 {
     width: 40px;
@@ -75,15 +90,38 @@ body{
     margin: 0 15px;
 }
 .footer2{
-    border-top: 2px solid blue;
-    height: 100px;
+    border-top: 1px solid #024554;
+    height: 80px;
     margin-bottom: 0px;
     position: absolute;
     bottom: 0px;
-    width: 350px
+    width: 350px;
+    margin-top: 15px
+
 }
-.img-foot{
-    top: 400px;
-    height: 25px;
-    width: 25px;
+.logos-footer{
+    height: 30px;
+    width: 30px;
+    margin: 15px 40px;
+}
+.footer-end{
+    height: 80px;
+    width: 100%;
+    background-color: #488FB1;
+    color: #085E7D;
+    font-size: 0.5em;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+.info-footer{
+    padding: 10px 0;
+}
+foot-a{
+    display: inline-block;
+}
+h1{
+    color: #024554;
+    text-align: center;
+    margin: 10px 0;
 }
