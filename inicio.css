@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-size: 25px;
+    background-color: #42C2FF;
+}
+.header1{
+    display: flex;
+    height: 80px;
+    background-color: #488FB1;
+    justify-content: space-between;
+    color: #085E7D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    color: aliceblue
+}
+.logo1{
+    height: 60px;
+    margin: auto 10px
+}
+.paginas, .caja-header{
+    display: inline-block;
+    margin: auto 15px;
+    text-align: center;
+}
+.target-1{
+    height: 480px;
+    width: 350px;
+    background-color: #E3BEC6;
+    margin: 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.img-1{
+    width: 350px;
+    height: 130px;
+}
+.foto-1{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    right: 115px;
+    top: 70px;
+}
+.text1, .info1{
+    display: inline-block;
+}
+.caja-2, .caja-2copy{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 200px;
+}
+.caja-2copy{
+    top: 320px;
+}
+.info1{
+    font-size: 15px;
+    margin: 0 15px;
+}
+.logo2 {
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+}
+.footer2{
+    border-top: 2px solid blue;
+    height: 100px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 350px
+}
+.img-foot{
+    top: 400px;
+    height: 25px;
+    width: 25px;
+}
