@@ -167,3 +167,64 @@ h1{
     font-size: 15px;
     margin-top: 5px
 }
+.section-var{
+    width: 90%;
+    height: 800px;
+    margin: 20px 5px;
+    background-color: white;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 15px 15px;
+    text-align: center;
+    position: relative;
+}
+.p1-var{
+    color: #187d94;
+    font-size: 15px;
+    padding: 35px 2px;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-0{
+    border-top: 6px solid rgb(212, 8, 8);
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #488FB1;
+    font-size: 12px;
+    margin: 15px;
+    padding: 20px;
+    text-align: initial;
+    position: absolute
+}
+.box-1{
+    border-top-color: rgb(89, 155, 241);
+    top: 320px;
+    left: 5%
+}
+.box-2{
+    border-top-color: rgb(241, 239, 121);
+    top: 320px;
+    right: 5%
+}
+.box-3{
+    border-top-color: rgb(191, 123, 212);
+    top:25%;
+    left: 36%;
+}
+.box-0{
+    left: 36%;
+    top: 55%
+}
+.h2-var{
+    margin-bottom: 20px
+}
+.p-var{
+    margin-bottom: 45px;
+    color:  #187d94;
+}
+.img-var{
+    width: 50px;
+    height: 50px;
+    margin-left: 180px
+}
